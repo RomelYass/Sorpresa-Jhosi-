@@ -13,7 +13,9 @@
 
 <div class="center">
 
-<button id="startBtn" onclick="inicio()">💖 Para ti</button>
+<button id="startBtn" onclick="empezarCuenta()">💖 Para ti</button>
+
+<div id="countdown" class="countdown hidden">5</div>
 
 <div id="content" class="hidden">
 
@@ -24,6 +26,7 @@
 </div>
 
 <button onclick="mostrarCartas()">💌 Quiero decirte</button>
+<button onclick="modoNoche()">🌙 Modo romántico</button>
 
 <div id="cartas" class="cartas hidden">
 
@@ -40,8 +43,13 @@
 
 </div>
 
-<!-- Globos -->
-<div id="globos"></div>
+<!-- Música -->
+<audio id="musica" loop>
+<source src="musica.mp3" type="audio/mp3">
+</audio>
+
+<!-- Frases -->
+<div id="frases"></div>
 
 <script src="script.js"></script>
 </body>
