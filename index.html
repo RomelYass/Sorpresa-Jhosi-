@@ -2,40 +2,46 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Feliz Cumple 💖</title>
+<title>Para Jhosi 💖</title>
 
 <link rel="stylesheet" href="style.css">
 
-<!-- Librería fuegos -->
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 
 <body>
 
-<!-- Música -->
-<audio autoplay loop>
-  <source src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" type="audio/mp3">
-</audio>
+<div class="center">
 
-<!-- Globos -->
-<div class="balloon b1"></div>
-<div class="balloon b2"></div>
-<div class="balloon b3"></div>
-<div class="balloon b4"></div>
+<button id="startBtn" onclick="inicio()">💖 Para ti</button>
 
-<div class="container">
+<div id="content" class="hidden">
 
-<h1>🎉 Feliz Cumpleaños 🎉</h1>
-<h2>20 Años 💖</h2>
+<h1>🎉 FELIZ CUMPLEAÑOS JHOSI 🎉</h1>
 
-<img src="https://i.imgur.com/0Z8FQ6R.png" class="cake">
+<div class="cake">
+🕯️🕯️🕯️🎂🕯️🕯️🕯️
+</div>
 
-<button onclick="mostrarMensaje()">💌 Ver Mensajes</button>
-<button onclick="fuegos()">🎆 Celebrar</button>
+<button onclick="mostrarCartas()">💌 Quiero decirte</button>
 
-<div id="cards"></div>
+<div id="cartas" class="cartas hidden">
+
+<div class="carta" onclick="abrir(1)">💌 Carta 1</div>
+<div class="carta" onclick="abrir(2)">💌 Carta 2</div>
+<div class="carta" onclick="abrir(3)">💌 Carta 3</div>
+<div class="carta" onclick="abrir(4)">💌 Carta 4</div>
 
 </div>
+
+<div id="mensaje" class="mensaje hidden"></div>
+
+</div>
+
+</div>
+
+<!-- Globos -->
+<div id="globos"></div>
 
 <script src="script.js"></script>
 </body>
