@@ -87,29 +87,30 @@ let textos={
 1:`Feliz cumpleaños, mi niña bonita.
 Quiero que sepas que eres una persona muy especial para mí, desde que llegaste, haces mis días más lindos con tu forma de ser, con tu sonrisa y con tu ternura.
 
-Deseo que esta nueva etapa esté llena de salud, alegría y sueños cumplidos.
+Deseo que esta nueva etapa de tu vida esté llena de salud, alegría, sueños cumplidos y muchas razones para sonreír.
 
-Nunca olvides lo valiosa que eres, estoy muy feliz de tenerte en mi vida.`,
+Nunca olvides lo valiosa, maravillosa persona que eres, estoy muy feliz de poder tenerte en mi vida.`,
 
 2:`Feliz cumpleaños, hermosa 💕
 Desearte todo lo lindo del mundo.
 
-Eres una persona muy especial para mí, me importas mucho y siempre quiero lo mejor para ti.
+Eres una persona muy especial para mi, me importas mucho, y siempre quiero lo mejor para ti.
 
-Conocerte fue lo más lindo que me pudo pasar.`,
+Eres lo más lindo que tengo en mi vida, conocerte fue lo más lindo que me pudo pasar.`,
 
 3:`Quiero que recuerdes siempre que no estás sola.
 
 Siempre tendrás a alguien que se preocupe por ti, que te escuche y que quiera verte feliz.
 
-Cuenta conmigo, hoy y siempre 💙`,
+Quiero que cuentes conmigo, hoy y siempre 💙`,
 
 4:`Feliz día, niña bonita 💗🎉
-Que Dios te bendiga siempre y te cuide.
+Que Dios te bendiga siempre y te cuide en cada paso que des ✨
 
-Me gustaría poder abrazarte hoy y decirte lo importante que eres para mí.
+Me gustaría poder abrazarte hoy
+y decirte en persona lo importante que eres para mí.
 
-Cuando nos veamos será más especial.
+Cuando nos veamos será algo más especial, te mando todo mi cariño y un fuerte abrazo.
 
 Feliz cumpleaños, mi niña hermosa 🫶👑`
 };
@@ -173,4 +174,4 @@ setTimeout(()=>{f.remove();},6000);
 
 },3000);
 
-}
+           }
